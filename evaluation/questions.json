@@ -1,0 +1,282 @@
+[
+  {
+    "type": "clear",
+    "question": "How many days of paid annual leave does a full-time employee get per year?",
+    "expected_answer": "24 days",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 1
+  },
+  {
+    "type": "clear",
+    "question": "How many unused annual leave days can be carried forward to the next year?",
+    "expected_answer": "Up to 10 days",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 2
+  },
+  {
+    "type": "clear",
+    "question": "How many days of sick leave are given per year?",
+    "expected_answer": "12 days",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 3
+  },
+  {
+    "type": "clear",
+    "question": "How many days per week can employees work remotely after probation?",
+    "expected_answer": "Up to 3 days per week",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 4
+  },
+  {
+    "type": "clear",
+    "question": "What is the notice period for confirmed employees?",
+    "expected_answer": "60 days",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 5
+  },
+  {
+    "type": "clear",
+    "question": "Within how many days must an expense claim be submitted?",
+    "expected_answer": "Within 30 days of the expense",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 6
+  },
+  {
+    "type": "clear",
+    "question": "What is the minimum length of a company password?",
+    "expected_answer": "14 characters",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 7
+  },
+  {
+    "type": "clear",
+    "question": "How often must passwords be changed?",
+    "expected_answer": "Every 90 days",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 8
+  },
+  {
+    "type": "clear",
+    "question": "Which phone number extension should be called if an MFA device is lost?",
+    "expected_answer": "Extension 4100",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 9
+  },
+  {
+    "type": "clear",
+    "question": "How often are production databases backed up?",
+    "expected_answer": "Every 6 hours",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 10
+  },
+  {
+    "type": "clear",
+    "question": "How many days are backups retained?",
+    "expected_answer": "35 days",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 11
+  },
+  {
+    "type": "clear",
+    "question": "What is the tank capacity of the AquaPure X200?",
+    "expected_answer": "8 litres",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 12
+  },
+  {
+    "type": "clear",
+    "question": "How often should the carbon filter be replaced?",
+    "expected_answer": "Every 6 months",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 13
+  },
+  {
+    "type": "clear",
+    "question": "What does the amber indicator light mean?",
+    "expected_answer": "Filter replacement is due",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 14
+  },
+  {
+    "type": "clear",
+    "question": "How long is the warranty on the AquaPure X200?",
+    "expected_answer": "2 years",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 15
+  },
+  {
+    "type": "vague",
+    "question": "How much time off do I get in a year?",
+    "expected_answer": "24 days of paid annual leave (plus 12 days sick leave)",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 16
+  },
+  {
+    "type": "vague",
+    "question": "Can I work from home?",
+    "expected_answer": "Yes, up to 3 days a week after the 90-day probation; 1 day a week during probation",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 17
+  },
+  {
+    "type": "vague",
+    "question": "What happens if I quit?",
+    "expected_answer": "Notice period of 60 days for confirmed employees (15 on probation, 90 for Senior Managers and above)",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 18
+  },
+  {
+    "type": "vague",
+    "question": "When do I get my bonus?",
+    "expected_answer": "Employees rated 4 or above get the bonus, distributed in May",
+    "source": "1_HR_Policy_Nimbus_Labs.pdf",
+    "id": 19
+  },
+  {
+    "type": "vague",
+    "question": "What do I do if my laptop gets stolen?",
+    "expected_answer": "Report it to the security team within 1 hour; they can remotely wipe it",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 20
+  },
+  {
+    "type": "vague",
+    "question": "Is it okay to share my login with a coworker?",
+    "expected_answer": "No, passwords must never be shared",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 21
+  },
+  {
+    "type": "vague",
+    "question": "How safe is my data if the system crashes?",
+    "expected_answer": "Databases are backed up every 6 hours, kept 35 days, in a separate cloud region",
+    "source": "2_IT_Security_Policy_Nimbus_Labs.pdf",
+    "id": 22
+  },
+  {
+    "type": "vague",
+    "question": "My purifier has a red light that does not blink. What now?",
+    "expected_answer": "A fault is detected: unplug the device and contact support",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 23
+  },
+  {
+    "type": "vague",
+    "question": "The water from my machine tastes strange.",
+    "expected_answer": "Replace the carbon filter",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 24
+  },
+  {
+    "type": "vague",
+    "question": "How do I get the machine ready the first time?",
+    "expected_answer": "Place it on a flat surface, fill the tank, hold power 3 seconds, and flush one full tank",
+    "source": "3_AquaPure_X200_Manual.pdf",
+    "id": 25
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the CEO's salary at Nimbus Labs?",
+    "expected_answer": null,
+    "source": null,
+    "id": 26
+  },
+  {
+    "type": "unanswerable",
+    "question": "How many days of study leave do employees get?",
+    "expected_answer": null,
+    "source": null,
+    "id": 27
+  },
+  {
+    "type": "unanswerable",
+    "question": "Does Nimbus Labs offer stock options?",
+    "expected_answer": null,
+    "source": null,
+    "id": 28
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the dress code at Nimbus Labs?",
+    "expected_answer": null,
+    "source": null,
+    "id": 29
+  },
+  {
+    "type": "unanswerable",
+    "question": "Where is the Nimbus Labs head office located?",
+    "expected_answer": null,
+    "source": null,
+    "id": 30
+  },
+  {
+    "type": "unanswerable",
+    "question": "Which VPN software does Nimbus Labs use?",
+    "expected_answer": null,
+    "source": null,
+    "id": 31
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the Wi-Fi password for the office?",
+    "expected_answer": null,
+    "source": null,
+    "id": 32
+  },
+  {
+    "type": "unanswerable",
+    "question": "Does Nimbus Labs provide health insurance for employees' families?",
+    "expected_answer": null,
+    "source": null,
+    "id": 33
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the price of the AquaPure X200?",
+    "expected_answer": null,
+    "source": null,
+    "id": 34
+  },
+  {
+    "type": "unanswerable",
+    "question": "Can the AquaPure X200 purify hot water?",
+    "expected_answer": null,
+    "source": null,
+    "id": 35
+  },
+  {
+    "type": "unanswerable",
+    "question": "Is the AquaPure X200 available in blue?",
+    "expected_answer": null,
+    "source": null,
+    "id": 36
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the power consumption of the AquaPure X200 in watts?",
+    "expected_answer": null,
+    "source": null,
+    "id": 37
+  },
+  {
+    "type": "unanswerable",
+    "question": "How many employees work at Nimbus Labs?",
+    "expected_answer": null,
+    "source": null,
+    "id": 38
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the policy on bringing pets to the office?",
+    "expected_answer": null,
+    "source": null,
+    "id": 39
+  },
+  {
+    "type": "unanswerable",
+    "question": "Who is the head of the IT security team?",
+    "expected_answer": null,
+    "source": null,
+    "id": 40
+  }
+]
